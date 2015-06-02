@@ -33,9 +33,10 @@
     "osc-min": "0.2.x"
   },
   "devDependencies": {
+    "istanbul": "^0.3.14",
     "mocha": "1.17.x",
-    "stats-lite": "1.0.x",
-    "rimraf": "2.2.x"
+    "rimraf": "2.2.x",
+    "stats-lite": "1.0.x"
   },
   "bin": {
     "rhizome": "./bin/rhizome.js",

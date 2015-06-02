@@ -60,7 +60,7 @@ Rhizome feature list
 
 [example](https://github.com/sebpiq/rhizome/tree/master/examples/base) | [OSC API](#from-osc-client)
 
-**websocket support**. A websocket client is included with rhizome. It can be used in your web pages, and handles all the dirty bits of websocket communication : automatic reconnection and so on ... 
+**websocket support**. A websocket client is included with rhizome. It can be used in your web pages, and handles all the dirty bits of websocket communication : automatic reconnection and so on ...
 
 [example](https://github.com/sebpiq/rhizome/tree/master/examples/base) | [websocket client API](#from-websocket-client)
 
@@ -214,14 +214,7 @@ export DEBUG=rhizome*
 
 #### Running tests and code coverage
 
-You need to install *mocha* for running the tests and *istanbul* for the test coverage :
-
-```
-npm install -g mocha
-npm install -g istanbul
-```
-
-Then from the root folder of the project, run tests like so :
+From the root of the project:
 
 ```
 npm test
