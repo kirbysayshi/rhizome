@@ -48,6 +48,9 @@
     "rhizome": "./bin/rhizome.js",
     "rhizome-blobs": "./bin/rhizome-blobs.js"
   },
+  "browser": {
+    "ws": false
+  },
   "license": "GPL-3.0",
   "engines": {
     "node": ">=4"
